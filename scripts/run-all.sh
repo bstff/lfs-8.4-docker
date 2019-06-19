@@ -15,3 +15,7 @@ sync
 sh /tools/run-build.sh
 sh /tools/run-image.sh
 EOF
+
+# sudo chown -R root:root $LFS/tools
+# sudo -E -u root /bin/sh -c "sh /tools/run-build.sh"
+# sudo -E -u root /bin/sh -c "sh /tools/run-image.sh"

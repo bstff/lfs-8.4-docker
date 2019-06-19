@@ -17,8 +17,8 @@ chown -R 0:0 .
 make mrproper
 # copy premade config
 # NOTE manual way is by launching:
-# make menuconfig
-cp /tools/kernel.config .config
+make menuconfig
+# cp /tools/kernel.config .config
 # compile
 make
 # installation
