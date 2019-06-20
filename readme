@@ -1,0 +1,7 @@
+使用slax-64bit-9.9.0.iso作为启动盘
+注意,slax自动挂载硬盘,在cfdisk分好区后会挂载到/media下
+umount /media后再mount到$LFS
+
+首先运行version-check.sh查看缺少的库
+
+完成后需要使用启动盘下载wget等相关的包,配置dhcpcd等才可以上网
