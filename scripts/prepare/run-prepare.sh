@@ -3,7 +3,8 @@ set -e
 echo "Preparing environment.."
 
 # download toolchain
-sh /tools/3.1-download-tools.sh
+# 不使用下载,使用自己准备好的包
+# sh /tools/3.1-download-tools.sh
 
 # build toolchain
 sh /tools/5.4-make-binutils.sh
