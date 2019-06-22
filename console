@@ -1,0 +1,8 @@
+UNICODE="1"
+KEYMAP="us"
+FONT="LatArCyrHeb-19"
+
+#CHARMAP="UTF-8"
+#CODESET="Lat7"
+#FONTFACE="Terminus"
+#FONTSIZE="28x14"
