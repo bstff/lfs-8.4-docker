@@ -30,7 +30,7 @@ ENV LFS=/mnt/lfs
 ENV LC_ALL=POSIX
 ENV LFS_TGT=x86_64-lfs-linux-gnu
 ENV PATH=/tools/bin:/bin:/usr/bin:/sbin:/usr/sbin
-ENV MAKEFLAGS="-j 4"
+ENV MAKEFLAGS="-j 8"
 
 # Defines how toolchain is fetched
 # 0 use LFS wget file
@@ -45,7 +45,7 @@ ENV LFS_TEST=0
 ENV LFS_DOCS=1
 
 # degree of parallelism for compilation
-ENV JOB_COUNT=4
+ENV JOB_COUNT=8
 
 # loop device
 ENV LOOP=/dev/loop6
