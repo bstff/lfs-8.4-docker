@@ -2,8 +2,8 @@
 set -e
 echo "Creating ramdisk.."
 
-LOOP_DIR=$(pwd)$LOOP
-RAMDISK=$(pwd)ramdisk
+LOOP_DIR=$(pwd)/$LOOP
+RAMDISK=$(pwd)/ramdisk
 
 # create ramdisk file of IMAGE_SIZE
 dd if=/dev/zero of=$RAMDISK bs=1k count=$IMAGE_SIZE
